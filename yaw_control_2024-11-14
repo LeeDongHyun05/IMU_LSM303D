@@ -1,20 +1,20 @@
 #include <Wire.h>
 #include <LSM303.h>
 
-#define ENL 5        // 모터 핀 정의
-#define IN1 6
-#define IN2 7
-#define IN3 8
-#define IN4 9
-#define ENR 10
+#define ENA 4       
+#define IN1 15
+#define IN2 14
+#define IN3 7
+#define IN4 8
+#define ENB 3
 
 // 왼쪽 엔코더 핀
-#define ENCODER_A_C1_PIN 50  // 왼쪽 엔코더 C1 핀
-#define ENCODER_A_C2_PIN 51  // 왼쪽 엔코더 C2 핀
+#define ENCODER_A_C1_PIN 49  // 왼쪽 엔코더 C1 핀
+#define ENCODER_A_C2_PIN 50  // 왼쪽 엔코더 C2 핀
 
 // 오른쪽 엔코더 핀
-#define ENCODER_B_C1_PIN 52  // 오른쪽 엔코더 C1 핀
-#define ENCODER_B_C2_PIN 53  // 오른쪽 엔코더 C2 핀
+#define ENCODER_B_C1_PIN 51  // 오른쪽 엔코더 C1 핀
+#define ENCODER_B_C2_PIN 52  // 오른쪽 엔코더 C2 핀
 
 LSM303 compass;
 
